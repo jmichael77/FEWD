@@ -1,0 +1,97 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: raleway, serif;
+	background-image: radial-gradient( red, white);
+	background-attachment: fixed;
+}
+
+/* Navigation Bar */
+
+.navbar {
+	padding-bottom: 0.5%;
+	padding-left: 2%;
+	box-shadow: 3px 3px 2px #888888;
+}
+
+#header {
+	font-size: 30px;
+}
+
+.menu {
+	margin-top: -3.8%;
+	margin-left: 70%;
+	width: 50%;
+	word-spacing: 2em;
+}
+
+li.menulist {
+	font-size: 18px;
+	list-style-type: none;
+	display: inline;
+	text-transform: uppercase;
+	margin-left: 5%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: dimgrey;
+}
+
+a:hover {
+	color: hotpink;
+}
+
+/* About Me */ 
+
+#me_text {
+	margin-left: 5%;
+}
+
+.me {
+	margin-left: 40%;
+	margin-top: 3%;
+	position: absolute;
+}
+
+#arrow {
+	margin-top: -6.5%;
+	margin-left: 20%;
+	position: absolute;
+}
+
+.meinfo {
+	margin-top: 30%;
+	text-align: center;
+}
+
+.resume {
+	text-align: center;
+}
+
+h4 {
+	font-style: italic;
+	font-size: 17px;
+}
+
+.small {
+	font-size: 13px;
+}
+
+h3:hover {
+	color: hotpink;
+}
+
+h2:hover {
+	color: hotpink;
+}
+
+/* Projects Page */
+
+.projects {
+	text-align: center;
+	text-transform: uppercase;
+}
