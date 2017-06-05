@@ -1,0 +1,41 @@
+body {
+  background-color: #B07BAC;
+}
+
+h1 {
+  margin-left: 500px;
+  color: #D9D7DD;
+  font-family: Barrio;
+  font-size: 40px;
+}
+
+ul {
+  width: 550px;
+  height: 550px;
+  list-style: none;
+  margin: auto;
+}
+
+li {
+  width: 150px;
+  height: 150px;
+  border: solid #D9D7DD 3px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-family: Barrio;
+  font-size: 160px;
+}
+
+h2 {
+  font-family: 'PT Sans', serif;
+}
+
+#legend-left {
+  margin-top: -200px;
+  margin-left: 30px;
+}
+
+#legend-right {
+  margin-left: 30px;
+}
