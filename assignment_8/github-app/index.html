@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>TEST GITHUB APP</title>
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- My Script -->
+    <script type="text/javascript" src="script.js" ></script>
+    <!-- My style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav-wrapper pink accent-4">
+       <div class="input-field">
+         <input id="search" type="search" required>
+         <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+         <i class="material-icons">close</i>
+       </div>
+     </div>
+   </nav>
+
+   <div class="container">
+    <div class="row">
+      <h1></h1>
+      <div class="col l12">
+        <ul class="tabs pink accent-4">
+          <li class="tab col l3"> <a href="#profile-tab"> Profile</a> </li>
+          <li class="tab col l3"> <a id="repos" href="#repos-tab"> Repos </a> </li>
+          <li class="tab col l3"> <a href="#"> Following </a> </li>
+          <li class="tab col l3"> <a href="#"> Followers </a> </li>
+        </ul>
+      </div>
+
+      <div id="profile-tab" class="col l12">
+        <div class="col l4 avatar">
+          
+        </div>
+
+        <div class="col l4 details">
+
+          <ul>
+            <li>City: <span class="city"> </span> </li>
+            <li>Company: <span class="company"></span> </li>
+            <li>Member Since: <span class="since"></span> </li>
+          </ul>
+
+        </div>
+
+        <div class="col l4">
+
+        </div>
+
+      </div>
+
+      <div class="col l12" id="repos-tab">
+        <table class="table bordered stripped">
+          <thead>
+            <tr>
+                <th>Name</th>
+                <th>Language</th>
+                <th>View on Github</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  </body>
+  </html>
